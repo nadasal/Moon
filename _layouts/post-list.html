@@ -22,11 +22,11 @@ layout: compress
                     </a>
                 </div>
                 <div class="post-list">
-                    {% for post in site.posts %} 
+                    {% for post in site.posts %}
                         {% if post.project == null %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><br>
                             <h4>{{ post.date | date_to_string }}</h4>
                             <p>{{ post.description }}</p>
                             <!--<a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>-->
@@ -42,5 +42,6 @@ layout: compress
     {% include scripts.html %}
     <script src="{{ site.url }}/assets/js/wow.min.js"></script>
     <script type="text/javascript">(new WOW).init();</script>
+    {% include analytics.html %}
 </body>
 </html>
