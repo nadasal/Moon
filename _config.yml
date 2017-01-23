@@ -13,7 +13,7 @@ url:                https://nadasal.github.io
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
-highlighter:        rouge
+highlighter:        gray
 kramdown:
   auto_ids:         true
   footnote_nr:      1
