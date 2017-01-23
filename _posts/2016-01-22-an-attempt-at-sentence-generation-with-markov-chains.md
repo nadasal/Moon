@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Attempt at Sentence Generation with Markov Chains
-description: Generating Gibbrish in an Attempt to model Markov Chains.
+description: Generating gibbrish in an attempt to model Markov Chains.
 comments: true
 ---
 
