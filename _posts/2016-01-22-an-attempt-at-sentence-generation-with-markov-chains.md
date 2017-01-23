@@ -3,7 +3,12 @@ layout: post
 title: An Attempt at Sentence Generation with Markov Chains
 ---
 
-With the rise of automation and machine learning, many programs that predict future instances based on past appearances are popping up. A great deal of these programs utilize the concept of a Markov Chain, which is a model that describes a sequence of possible events in which the probability of each event depends on the state attained in the previous event <sup>[1](http://www.businessdictionary.com/definition/Markov-chain.html)</sup>. A few years ago, a Facebook application called 'What Would I Say?' (that utilized Markov Chains) went viral. It claimed that it could automatically generate Facebook posts that sound like you from studying your previous status posts. While most of the sentences it generated were utterly meaningless, the concept behind it has many useful applications. Beyond generating gibbrish, Markov Chains can generate a large number of spam emails, can help create piano compositions, and can even predict baseball pitches.
+With the rise of automation and machine learning, many programs that predict future instances based on past appearances are popping up. A great deal of these programs utilize the concept of a Markov Chain, which is a model that describes a sequence of possible events in which the probability of each event depends on the state attained in the previous event <sup>[1](http://www.businessdictionary.com/definition/Markov-chain.html)</sup>. A few years ago, a Facebook application called 'What Would I Say?' (that utilized Markov Chains) went viral. It claimed that it could automatically generate Facebook posts that sound like you from studying your previous status posts. While most of the sentences it generated were utterly meaningless, the concept behind it has many useful applications. Beyond generating gibbrish, Markov Chains can generate a large number of spam emails, can help create piano compositions, and can even predict baseball pitches. One humorous implementation of a Markov Chain is [Garkov](http://joshmillard.com/garkov/), which transcripts old Garfield strips (plus some extra code) to make a genuine looking Garfield comic strip.
+
+<img src="../assets/img/garkov_1.png" style="width: 100%;"></p>
+
+<img src="../assets/img/garkov_2.png" style="width: 100%;">source: [Garkov](http://joshmillard.com/garkov/)</p>
+
 
 In this post, I am going to create a basic Markov Chain that attempts to generate text in the same manner as the 'What Would I Say?' application. The model I explain below is quite simple and presumably not very accurate. We could increase its precision by assigning weights to the words. For now, I will stick to the basic model in order to illustrate the concept of Markov Chains.
 
