@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: compress
 title: About
 comments: false
 ---
