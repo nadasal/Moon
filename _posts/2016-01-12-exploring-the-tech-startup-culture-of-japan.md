@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Exploring the Tech Startup Culture of Japan
+comments: true
 ---
 
 Despite the risk-averse nature of the Japanese culture, the local startup scene has been on the rise. In March 2014, visited Tokyo to learn more about this phenomenon.
