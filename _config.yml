@@ -23,7 +23,7 @@ kramdown:
 mathjax:            true
 sass:
   sass_dir:         _sass
-  style:            compressed
+  style:            page
 
 # Comments
 disqus_shortname:   nadasal
