@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Exploring the Tech Startup Culture of Japan
+description: A reflection on my spring break touring Tokyo startups.
 comments: true
 ---
 
