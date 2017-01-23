@@ -117,7 +117,7 @@ p pre,
 li pre {
     @include font(14);
     background-color: $color_gray;
-    border: 1px solid $color_mischka;
+    border: 1px solid $color_gray;
     @include rounded(4px);
     margin: 0 2px;
     padding: 0 5px;
