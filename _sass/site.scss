@@ -76,10 +76,10 @@ body {
 	padding-left: 15px;
 	@include center-block();
 	background-color: $white;
-	color: $color_shark;
+	color: $color_gray;
 	z-index: 1;
 	border-radius: 3px;
-	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	box-shadow: 0 0 10px 0 rgba($color_gray,0.3);
 	@include transition(.5s);
 	@media #{$small} {
 		width: 100%;
@@ -105,10 +105,10 @@ body {
 	max-width: 850px;
 	margin: 4rem auto;
 	background: $white;
-	color: $color_tuatara;
+	color: $color_gray;
 	padding: 2em;
 	border-radius: 3px;
-	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	box-shadow: 0 0 10px 0 rgba($color_gray,0.3);
 	@include transition(.5s);
 	@media #{$small} {
 		width: 90%;
